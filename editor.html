@@ -1,0 +1,40 @@
+<!DOCTYPE>
+
+<html>
+	<head>
+		<title>Lightning Editor</title>
+		
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,700' rel='stylesheet' type='text/css'>
+		
+		<script src='https://cdn.firebase.com/v0/firebase.js'></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+		
+		
+	</head>
+	
+<body>
+	<div class="sidebar">
+		<div class="currentPosts">
+			<ul>
+				<li>A post</li>
+			</ul>
+		</div>
+		<div class="postsAdmin">
+			<span class="addPost"><a href="editor.html">New Post</a></span>
+			<span class="addPost"><a href="posts.html">All Posts</a></span>
+		</div>
+	</div>
+	<div class="main">
+		<div class="featured">
+			<h1 class="postTitle" contenteditable="true">This is an article title</h1>
+			<p class="postBody" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet nulla nec ante interdum, et egestas lectus fringilla. Nunc bibendum, massa eu tincidunt pellentesque, nibh magna consectetur elit, tempor tincidunt lorem ipsum ac sem. Suspendisse potenti. Morbi posuere velit in pharetra malesuada. Pellentesque viverra adipiscing arcu commodo bibendum. Fusce in rhoncus eros. In auctor fermentum tincidunt. Donec eget felis sapien. Aliquam nibh nibh, semper vitae neque et, volutpat bibendum diam. Cras sollicitudin dolor nec dignissim suscipit. Sed id tristique risus. Etiam adipiscing neque nec nibh consequat tempus. Cras vel ullamcorper diam. In lectus turpis, porta vitae placerat volutpat, consequat et odio. Quisque ultrices tristique tortor vitae tristique. Pellentesque volutpat lacinia dui, sed fringilla massa vestibulum eu. <br>
+			
+			In posuere, neque tempor lobortis pharetra, dolor velit dictum mauris, nec elementum eros tortor et neque. Maecenas nec bibendum sapien, condimentum varius nunc. Quisque interdum quis leo id vulputate. Morbi ornare ornare erat, at placerat dui tempus in. Vestibulum ullamcorper quam sed adipiscing sodales. In id dolor lacinia urna luctus blandit. Suspendisse dapibus turpis a neque dapibus viverra. Vivamus nec felis orci. d d</p>
+			<button class="save">Save</button>
+		</div>
+	</div>
+	<script src="firebase.js" type="text/javascript"></script>
+</body>
+
+</html>
